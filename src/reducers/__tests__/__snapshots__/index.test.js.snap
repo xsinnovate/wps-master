@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getCartProducts() should return the array of products in cart with details 1`] = `
+Array [
+  Object {
+    "id": "prod1",
+    "image": "https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red",
+    "pickup": 3.85,
+    "price": 102.96,
+    "quantity": 1,
+  },
+]
+`;
+
+exports[`getCartTotals() should return an object with the calculated cart totals 1`] = `
+Object {
+  "promo": 0,
+  "savings": 3.85,
+  "subtotal": 102.96,
+  "taxes": 8.92,
+  "total": 108.03,
+}
+`;
+
+exports[`rootReducer should add 10% discount if promo code DISCOUNT used 1`] = `
+Object {
+  "cart": Array [
+    Object {
+      "id": "prod1",
+      "quantity": 1,
+    },
+  ],
+  "products": Object {
+    "prod1": Object {
+      "image": "https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+      "name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red",
+      "pickup": 3.85,
+      "price": 102.96,
+    },
+  },
+  "promo": 10,
+}
+`;
+
+exports[`rootReducer should have initial cart state 1`] = `
+Object {
+  "cart": Array [
+    Object {
+      "id": "prod1",
+      "quantity": 1,
+    },
+  ],
+  "products": Object {
+    "prod1": Object {
+      "image": "https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+      "name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red",
+      "pickup": 3.85,
+      "price": 102.96,
+    },
+  },
+  "promo": 0,
+}
+`;
+
+exports[`rootReducer should not apply discount for other promo codes 1`] = `
+Object {
+  "cart": Array [
+    Object {
+      "id": "prod1",
+      "quantity": 1,
+    },
+  ],
+  "products": Object {
+    "prod1": Object {
+      "image": "https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+      "name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red",
+      "pickup": 3.85,
+      "price": 102.96,
+    },
+  },
+  "promo": 0,
+}
+`;

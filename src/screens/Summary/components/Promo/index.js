@@ -7,7 +7,7 @@ import Button from '../../../../components/Button';
 import Input from '../../../../components/Input';
 import styles from './styles';
 
-class Promo extends PureComponent {
+export class Promo extends PureComponent {
   state = {
     value: '',
   };

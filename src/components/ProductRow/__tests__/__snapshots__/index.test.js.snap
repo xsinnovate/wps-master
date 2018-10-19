@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductRow /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "resizeMode": "contain",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 2,
+      }
+    }
+  >
+    <Text>
+      Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingTop": 6,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "paddingBottom": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "600",
+              }
+            }
+          >
+            $99.11
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#999",
+                "fontWeight": "600",
+                "textDecorationLine": "line-through",
+              }
+            }
+          >
+            $102.96
+          </Text>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "fontSize": 13,
+            }
+          }
+        >
+          Qty: 1
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

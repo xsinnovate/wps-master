@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Collapsible /> displays labelHide prop when expanded 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text>
+        Hide
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+            "fontWeight": "100",
+            "lineHeight": 32,
+            "marginLeft": 10,
+          }
+        }
+      >
+        -
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingVertical": 10,
+      }
+    }
+  >
+    Content
+  </View>
+</View>
+`;
+
+exports[`<Collapsible /> expands when label is pressed 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text>
+        Label
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+            "fontWeight": "100",
+            "lineHeight": 32,
+            "marginLeft": 10,
+          }
+        }
+      >
+        -
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingVertical": 10,
+      }
+    }
+  >
+    Content
+  </View>
+</View>
+`;
+
+exports[`<Collapsible /> renders correctly 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text>
+        Label
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+            "fontWeight": "100",
+            "lineHeight": 32,
+            "marginLeft": 10,
+          }
+        }
+      >
+        +
+      </Text>
+    </View>
+  </View>
+</View>
+`;

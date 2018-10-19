@@ -15,7 +15,7 @@ import Promo from './components/Promo';
 import { getCartProducts, getCartTotals } from '../../reducers';
 import styles from './styles';
 
-function Summary({
+export function Summary({
   products,
   subtotal,
   savings,
@@ -118,6 +118,4 @@ Summary.propTypes = {
 export default connect(state => ({
   products: getCartProducts(state),
   ...getCartTotals(state),
-}), {
-
-})(Summary);
+}))(Summary);

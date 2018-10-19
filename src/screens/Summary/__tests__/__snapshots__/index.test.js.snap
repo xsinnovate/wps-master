@@ -1,0 +1,709 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Summary /> renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 40,
+        "paddingHorizontal": 20,
+        "paddingTop": 75,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "lineHeight": 22,
+              }
+            }
+          >
+            Subtotal
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            $100
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={null}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              Pickup Savings
+            </Text>
+          </View>
+          <Modal
+            animationType="fade"
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              accessible={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(0,0,0,0.5)",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#fff",
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 25,
+                  }
+                }
+              >
+                <Text>
+                  Picking up your order in the store helps cut costs, and we pass the savings on to you.
+                </Text>
+              </View>
+            </View>
+          </Modal>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "red",
+                },
+              ]
+            }
+          >
+            -$10
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "lineHeight": 22,
+              }
+            }
+          >
+            Est. taxes & fees
+            
+
+            (Based on 94085)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            $10
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#dfdfdf",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingVertical": 8,
+              },
+              Object {
+                "marginBottom": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Est. total
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 28,
+                "fontWeight": "600",
+              }
+            }
+          >
+            $100
+          </Text>
+        </View>
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text>
+                See item details
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 32,
+                    "fontWeight": "100",
+                    "lineHeight": 32,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#dfdfdf",
+                "height": 1,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text>
+                Apply promo code
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 32,
+                    "fontWeight": "100",
+                    "lineHeight": 32,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<Summary /> renders promo discount line if provided 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 40,
+        "paddingHorizontal": 20,
+        "paddingTop": 75,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "lineHeight": 22,
+              }
+            }
+          >
+            Subtotal
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            $100
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={null}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              Pickup Savings
+            </Text>
+          </View>
+          <Modal
+            animationType="fade"
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              accessible={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(0,0,0,0.5)",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#fff",
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 25,
+                  }
+                }
+              >
+                <Text>
+                  Picking up your order in the store helps cut costs, and we pass the savings on to you.
+                </Text>
+              </View>
+            </View>
+          </Modal>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "red",
+                },
+              ]
+            }
+          >
+            -$10
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "lineHeight": 22,
+              }
+            }
+          >
+            Promo
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "red",
+                },
+              ]
+            }
+          >
+            -$10
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "lineHeight": 22,
+              }
+            }
+          >
+            Est. taxes & fees
+            
+
+            (Based on 94085)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            $10
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#dfdfdf",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingVertical": 8,
+              },
+              Object {
+                "marginBottom": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Est. total
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 28,
+                "fontWeight": "600",
+              }
+            }
+          >
+            $90
+          </Text>
+        </View>
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text>
+                See item details
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 32,
+                    "fontWeight": "100",
+                    "lineHeight": 32,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#dfdfdf",
+                "height": 1,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text>
+                Apply promo code
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 32,
+                    "fontWeight": "100",
+                    "lineHeight": 32,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

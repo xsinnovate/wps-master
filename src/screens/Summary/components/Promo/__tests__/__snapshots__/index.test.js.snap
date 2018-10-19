@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Promo /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 4,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#777",
+            }
+          }
+        >
+          Promo code
+        </Text>
+      </View>
+      <View>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="characters"
+          autoCorrect={false}
+          onChangeText={[Function]}
+          style={
+            Object {
+              "borderColor": "#ccc",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "height": 40,
+              "paddingHorizontal": 10,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#333",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "height": 40,
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 40,
+              "textAlign": "center",
+            }
+          }
+        >
+          Apply
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

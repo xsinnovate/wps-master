@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Divider /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#dfdfdf",
+        "height": 1,
+      }
+    }
+  />
+</View>
+`;
